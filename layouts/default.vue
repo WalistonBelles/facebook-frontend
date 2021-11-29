@@ -1,5 +1,12 @@
 <template>
   <div class="default-layout">
+    <clientOnly>
+      <notifications
+        position="bottom right"
+        classes="notifications"
+        :max="1"
+      />
+    </clientOnly>
     <Header />
     <Nuxt />
   </div>

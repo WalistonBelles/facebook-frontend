@@ -1,5 +1,5 @@
 <template>
-  <form>
+  <form @submit.prevent="onSubmit">
     <div class="fom-field">
       <BaseInput v-model="email" type="email" placeholder="E-mail" />
     </div>
@@ -10,11 +10,34 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import { userRegister } from '@/store'
 
 export default Vue.extend({
   data() {
     return {
       email: ''
+    }
+  },
+  methods: {
+    async onSubmit() {
+      try {
+        await userRegister.create({
+          email: this.email,
+          redirectUrl: 'http://localhost:3000/register'
+        })
+
+        this.$set(this, 'email', '');
+
+        this.$notify({
+          type: 'success',
+          text: 'Tudo Certo! Verifique seu email!'
+        })
+      } catch (error) {
+        this.$notify({
+          type: 'error',
+          text: 'Opss... Algo deu errado'
+        })
+      }
     }
   }
 })
