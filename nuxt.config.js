@@ -14,7 +14,11 @@ export default {
 
   css: ['normalize.css/normalize.css', '@/assets/scss/base.scss'],
 
-  plugins: ['@/plugins/accessor', '@/plugins/notifications.client'],
+  plugins: [
+    '@/plugins/accessor',
+    '@/plugins/notifications.client',
+    '@/plugins/axios'
+  ],
 
   components: [{ path: '@/components/', pathPrefix: false }],
 
@@ -35,7 +39,10 @@ export default {
     }
   },
 
-  modules: ['@nuxtjs/axios'],
+  modules: [
+    '@nuxtjs/axios',
+    'cookie-universal-nuxt'
+  ],
 
   axios: {
     baseUrl: 'http://localhost:3333'

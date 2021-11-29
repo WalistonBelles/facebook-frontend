@@ -47,9 +47,10 @@ export default Vue.extend({
           type: 'success',
           text: 'Cadastro realizado com sucesso!'
         })
-        await Object.keys(this.user).map((item) => {
-          this.user[item] = ''
-        })
+        this.$set(this.user, 'email', '');
+        this.$set(this.user, 'name', '');
+        this.$set(this.user, 'password', '');
+        this.$set(this.user, 'passwordConfirmation', '');
       } catch (error) {
         this.$notify({
           type: 'error',
