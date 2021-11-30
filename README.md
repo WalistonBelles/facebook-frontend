@@ -1,6 +1,32 @@
-# facebook-frontend
+<div align="center">
+  <img src="./assets/img/logo.png" width="300" alt="adonis">
 
-## Build Setup
+# Facebook Front-end
+
+Um clone do visual da rede social Facebook, utilizando Nuxt.Js, Typescript e boas práticas de Atomic Design. O projeto consome uma api que simula o ambiente de backend do sistema, você encontra ela <a href="https://github.com/WalistonBelles/facebook-api"> aqui</a>
+<br>
+
+![Badge](https://img.shields.io/github/issues/WalistonBelles/facebook-frontend?color=green)
+![Badge](https://img.shields.io/github/forks/WalistonBelles/facebook-frontend)
+![Badge](https://img.shields.io/github/stars/WalistonBelles/facebook-frontend)
+![Badge](https://img.shields.io/apm/l/vim-mode)
+
+</div>
+<br>
+
+<h2> 🍸 Demo </h2>
+<br>
+
+<img src="./assets/img/demo.png" alt="demo">
+<br>
+<br>
+<img src="./assets/img/demo1.png" alt="demo">
+<br>
+<br>
+<img src="./assets/img/demo2.png" alt="demo">
+
+<br>
+<h2> 🍸 Build Setup </h2>
 
 ```bash
 # install dependencies
@@ -17,54 +43,16 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+<h2> 👨🏾‍💻 Techs </h2>
+<li> Nuxt.js </li>
+<li> Typescript </li>
+<br>
 
-## Special Directories
+<h2> 👤 Author </h2>
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+<h3> <b> Waliston Belles </b></h3>
 
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
-# facebook-frontend
+<li> Github: <a href="https://github.com/WalistonBelles">@walistonbelles</a> </li>
+<li> Linkedin: <a href="https://www.linkedin.com/in/waliston-belles-88927a212/">@walistonbelles</a> </li>
+<li> Discord:  Waliston#0145</a></li>
+<br>
