@@ -20,7 +20,7 @@
 
     <div class="menu-bar-actions">
       <NuxtLink to="/123" class="profile-avatar">
-        <img src="@/assets/img/profile-pic.jpg" alt="Foto do perfil" />
+        <img src="@/assets/img/profile_avatar.png" alt="Foto do perfil" />
         <p>Caterine</p>
       </NuxtLink>
 

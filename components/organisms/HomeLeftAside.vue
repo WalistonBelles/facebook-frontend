@@ -2,7 +2,7 @@
   <Aside :class="{ 'is-menu-active': isMenuActive }">
     <div class="content">
       <div class="profile-avatar">
-        <img src="@/assets/img/profile-pic.jpg" alt="" />
+        <img src="@/assets/img/profile_avatar.png" alt="" />
 
         <p>Cataline S. Rocha</p>
         <BaseButton

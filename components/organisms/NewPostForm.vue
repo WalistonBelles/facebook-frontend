@@ -6,7 +6,7 @@
     :class="{ 'active-form': isWritingANewPost, 'has-text': hasText }"
   >
     <div class="new-post-box">
-      <img src="@/assets/img/profile-pic.jpg" alt="" />
+      <img src="@/assets/img/profile_avatar.png" alt="" />
 
       <ExpandableTextarea
         v-model="text"
@@ -16,7 +16,7 @@
     </div>
 
     <div v-show="false" class="uploaded-image-preview">
-      <img src="@/assets/img/profile-pic.jpg" alt="" />
+      <img src="@/assets/img/profile_avatar.png" alt="" />
     </div>
 
     <div v-show="isWritingANewPost || hasText" class="form-action">

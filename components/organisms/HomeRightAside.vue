@@ -8,37 +8,37 @@
 
         <ul class="contacts">
           <Contact
-            imageURL="profile-pic.jpg"
+            imageURL="profile_avatar.png"
             username="RafaelBarros"
             status="online"
           />
           <Contact
-            imageURL="profile-pic.jpg"
+            imageURL="profile_avatar.png"
             username="Gabriel Rocha Melo"
             status="busy"
           />
           <Contact
-            imageURL="profile-pic.jpg"
+            imageURL="profile_avatar.png"
             username="Stephanny Motta"
             status="online"
           />
           <Contact
-            imageURL="profile-pic.jpg"
+            imageURL="profile_avatar.png"
             username="Alexandre Mendes"
             status="busy"
           />
           <Contact
-            imageURL="profile-pic.jpg"
+            imageURL="profile_avatar.png"
             username="Giovana dos Santos"
             status="busy"
           />
           <Contact
-            imageURL="profile-pic.jpg"
+            imageURL="profile_avatar.png"
             username="Ronaldo Schimth"
             status="online"
           />
           <Contact
-            imageURL="profile-pic.jpg"
+            imageURL="profile_avatar.png"
             username="Heloise Vasconcelos"
             status="online"
           />
@@ -48,17 +48,17 @@
 
         <ul class="contacts">
           <Contact
-            imageURL="profile-pic.jpg"
+            imageURL="profile_avatar.png"
             username="Deborah Gomes"
             status="offline"
           />
           <Contact
-            imageURL="profile-pic.jpg"
+            imageURL="profile_avatar.png"
             username="Jéssica Bareoni"
             status="offline"
           />
           <Contact
-            imageURL="profile-pic.jpg"
+            imageURL="profile_avatar.png"
             username="Chris Nathaniel"
             status="offline"
           />
